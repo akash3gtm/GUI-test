@@ -9,6 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@dank-style/animation-plugin": "latest",
+    "@dank-style/react": "latest",
+    "@gluestack-ui/input": "latest",
+    "@gluestack-ui/provider": "latest",
+    "@gluestack/ui-next-adapter": "latest",
+    "@react-native-aria/interactions": "^0.2.8",
     "@types/node": "20.1.4",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
@@ -18,14 +24,12 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.4",
-    "@dank-style/react": "latest",
-    "@gluestack-ui/provider": "latest",
-    "@dank-style/animation-plugin": "latest",
-    "@gluestack/ui-next-adapter": "latest"
+    "@gluestack-ui/icon": "latest",
+    "react-native-svg": "latest"
   },
   "devDependencies": {
-    "react-native-web": "^0.18.12",
+    "@types/react-native": "^0.71.6",
     "react-native": "^0.70.7",
-    "@types/react-native": "^0.71.6"
+    "react-native-web": "^0.18.12"
   }
 }

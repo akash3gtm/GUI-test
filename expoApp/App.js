@@ -1,20 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { ScrollView } from 'react-native';
+import { GluestackUIProvider, Box, Input, SearchIcon } from './components';
+import { config } from './gluestack-ui.config';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <GluestackUIProvider config={config.theme}>
+      <Box h='$full' w='$full' alignContent='center'>
+        <ScrollView>
+          <Box>
+            <Input mt={600} mx='$5'>
+              <Input.Icon as={SearchIcon}/>
+              <Input.Input placeholder='yohohohoho?'/>
+            </Input>
+          </Box>
+        </ScrollView>
+      </Box>
+    </GluestackUIProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

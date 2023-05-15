@@ -9,19 +9,23 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@dank-style/animation-plugin": "latest",
+    "@dank-style/react": "latest",
+    "@gluestack-ui/input": "latest",
+    "@gluestack-ui/provider": "latest",
+    "@react-native-aria/interactions": "^0.2.8",
     "expo": "~48.0.15",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
     "react-native": "0.71.7",
-    "@dank-style/react": "latest",
-    "@gluestack-ui/provider": "latest",
-    "@dank-style/animation-plugin": "latest"
+    "@gluestack-ui/icon": "latest",
+    "react-native-svg": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "react-native-web": "^0.18.12",
+    "@types/react-native": "^0.71.6",
     "react-native": "^0.70.7",
-    "@types/react-native": "^0.71.6"
+    "react-native-web": "^0.18.12"
   },
   "private": true
 }
