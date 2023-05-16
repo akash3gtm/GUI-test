@@ -49,47 +49,51 @@ export default styled(
         xl: {
           _input: {
             fontSize: '$xl',
+            lineHeight: '$xl',
             py: 14,
           },
           _icon: {
-            color: '$textLight400',
-            h: 18,
-            w: 18,
+            color: '$backgroundLight500',
+            h: 24,
+            w: 24,
           },
         },
         lg: {
           _input: {
             fontSize: '$lg',
+            lineHeight: '$xl',
             py: 12,
           },
           _icon: {
-            color: '$textLight400',
-            h: 16,
-            w: 16,
+            color: '$backgroundLight500',
+            h: 20,
+            w: 20,
           },
         },
 
         md: {
           _input: {
             fontSize: '$md',
+            lineHeight: '$md',
             py: 10,
           },
           _icon: {
-            color: '$textLight400',
-            h: 14,
-            w: 14,
+            color: '$backgroundLight500',
+            h: 16,
+            w: 16,
           },
         },
 
         sm: {
           _input: {
             fontSize: '$sm',
+            lineHeight: '$sm',
             py: 8,
           },
           _icon: {
-            color: '$textLight400',
-            h: 12,
-            w: 12,
+            color: '$backgroundLight500',
+            h: 14,
+            w: 14,
           },
         },
       },
