@@ -25,7 +25,9 @@
     "react-dom": "18.2.0",
     "typescript": "5.0.4",
     "@gluestack-ui/icon": "latest",
-    "react-native-svg": "latest"
+    "react-native-svg": "latest",
+    "@gluestack-ui/radio": "latest",
+    "@gluestack-ui/button": "latest"
   },
   "devDependencies": {
     "@types/react-native": "^0.71.6",

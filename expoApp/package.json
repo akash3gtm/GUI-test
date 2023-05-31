@@ -20,7 +20,8 @@
     "react-native": "0.71.7",
     "@gluestack-ui/icon": "latest",
     "react-native-svg": "latest",
-    "@gluestack-ui/button": "latest"
+    "@gluestack-ui/button": "latest",
+    "@gluestack-ui/radio": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
